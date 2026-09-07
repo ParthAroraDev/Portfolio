@@ -2,6 +2,7 @@
     --theme_color:#1484F4;
     --text_color:#C3C0C5;
     --bg_color:#000A1F;
+    --theme2_color: #031024;
 }
 
 
@@ -70,7 +71,7 @@ main{
 }
 
 footer{
-    background-color: #031024;
+    background-color: var(--theme2_color);
     border-radius: 20px;
     margin-left: 20px;
     width: calc(100% - 40px);
